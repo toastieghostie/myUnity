@@ -1,0 +1,5 @@
+git add .
+
+git commit -am "what were you doing?"
+
+git push origin master
