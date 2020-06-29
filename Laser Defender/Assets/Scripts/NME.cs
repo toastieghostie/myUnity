@@ -5,12 +5,19 @@ using UnityEngine;
 public class NME : MonoBehaviour
 {
 
+  [Header("NME Stats")]
     [SerializeField] float health = 100;
-    [SerializeField] float shotCounter;
+    [SerializeField] int scoreValue = 50;
+
+    [Header("Shooting")]
+     float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject projectile;
     [SerializeField] float projectileSpeed = 10f;
+
+
+    [Header("SFX")]
     [SerializeField] GameObject deathVFX;
     [SerializeField] float durationOfExplosion = 1f;
     [SerializeField] AudioClip deathSound;
@@ -74,6 +81,7 @@ public class NME : MonoBehaviour
 
     private void Die()
     {
+        FindObjectOfType<GameSession>().AddToScore(scoreValue);
         Destroy(gameObject);
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, durationOfExplosion);
