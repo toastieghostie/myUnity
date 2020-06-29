@@ -54,6 +54,7 @@ public class Player : MonoBehaviour {
 
     private void ProcessHit(DamageDealer damageDealer)
     {
+        Debug.Log("process hit");
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
         if (health <= 0)
@@ -65,6 +66,7 @@ public class Player : MonoBehaviour {
 
     private void Die()
     {
+        FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
     }
