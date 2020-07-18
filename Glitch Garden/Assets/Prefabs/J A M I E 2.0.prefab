@@ -39,6 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3096590365254680713}
+  - component: {fileID: 1263767660}
   m_Layer: 0
   m_Name: J A M I E 2.0
   m_TagString: Untagged
@@ -61,6 +62,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1263767660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242848852153976064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f313ea4de4ea3b74a94cfb8452ef0e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starCost: 100
 --- !u!1 &5064314666678969194
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,4 +207,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2b0949c318fe344a20b548e393f31f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defender: {fileID: 5064314666678969194}
