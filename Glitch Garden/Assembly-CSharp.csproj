@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\StarDisplay.cs" />
     <Compile Include="Assets\Scripts\ds1.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
