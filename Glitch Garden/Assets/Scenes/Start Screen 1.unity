@@ -242,7 +242,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69272249}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2031039470}
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +458,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 548219951}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2031039470}
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1456284325
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +711,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2031039470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 799553917458845979, guid: 983a83aadfa0f4e4c9097f18a6e287ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 799553917311251273}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925ee204ee6db8e4eb1fd47d02693937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &799553917311251273
 PrefabInstance:
   m_ObjectHideFlags: 0
