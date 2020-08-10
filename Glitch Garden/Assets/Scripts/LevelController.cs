@@ -27,8 +27,10 @@ public class LevelController : MonoBehaviour
 
     public void AttackerKilled()
     {
+        var livesDisplasy = FindObjectOfType<LivesDisplay>();
+        
         numberOfAttackers--;
-        if (numberOfAttackers <= 0 && levelTimerFinished)
+        if (numberOfAttackers <= 0 && levelTimerFinished && livesDisplasy.lives > 0)
         {
             StartCoroutine(HandleWinCondition());
         }
