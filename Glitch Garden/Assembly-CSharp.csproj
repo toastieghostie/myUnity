@@ -76,11 +76,15 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\LivesDisplay.cs" />
     <Compile Include="Assets\Scripts\Lizard.cs" />
+    <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\OptionsController.cs" />
+    <Compile Include="Assets\Scripts\PlayerPrefsController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\Scripts\StarDisplay.cs" />
     <Compile Include="Assets\Scripts\Trophy.cs" />
     <Compile Include="Assets\Scripts\ds1.cs" />
+    <Compile Include="Assets\TEST.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
